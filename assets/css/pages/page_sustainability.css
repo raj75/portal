@@ -1,0 +1,17 @@
+.bg-color-light {
+	background-color: #f7f7f7 !important;
+}
+.content-sm {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.margin-bottom-60 {
+    margin-bottom: 60px;
+}
+.margin-bottom-5, .margin-bottom-10, .margin-bottom-15, .margin-bottom-20, .margin-bottom-25, .margin-bottom-30, .margin-bottom-35, .margin-bottom-40, .margin-bottom-45, .margin-bottom-50, .margin-bottom-55, .margin-bottom-60{
+clear:both;
+}
+.headline-center {
+    position: relative;
+    text-align: center;
+}

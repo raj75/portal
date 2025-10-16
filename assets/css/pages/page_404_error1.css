@@ -1,0 +1,84 @@
+/*404 Error Page v2
+------------------------------------*/
+
+/*@import url(https://fonts.googleapis.com/css?family=Kite+One);*/
+
+body {
+	background: #555;
+}
+
+.error-v2 {
+	font-size: 40pt;
+}
+
+.error-v3 {
+	font-size: 20pt;
+}
+
+.offset {
+margin-top: -320px;
+}
+
+
+@media (max-width: 1200px) 
+.error-v2 {
+	font-size: 40pt;
+}
+
+.error-v3 {
+	font-size: 20pt;
+}
+
+.offset {
+margin-top: -320px;
+}
+
+
+@media (max-width: 992px) 
+{ 
+	.error-v2 {
+		font-size: 30pt;
+	}
+
+	.error-v3 {
+		font-size: 15pt;
+	}
+
+	.offset {
+		margin-top: -220px;
+	}
+
+}
+
+@media (max-width: 768px) 
+{ 
+	.error-v2 {
+		font-size: 25pt;
+	}
+
+	.error-v3 {
+		font-size: 13pt;
+	}
+
+	.offset {
+		margin-top: -200px;
+	}
+
+}
+
+/*For Mobile Devices*/
+@media (max-width: 500px) 
+{ 
+	.error-v2 {
+		font-size: 15pt;
+	}
+
+	.error-v3 {
+		font-size: 8pt;
+	}
+
+	.offset {
+		margin-top: -100px;
+	}
+
+}

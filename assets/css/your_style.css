@@ -1,0 +1,97 @@
+/*
+ * It is advised not to edit the smartadmin_production.css
+ * as this will override any changes you make in the
+ * later versions of this theme.
+ *
+ * We advise that you use use this CSS to override
+ * SmartAdmin styles.
+ *
+ * Rename the stylesheet to whatever your liking so it will stay
+ * unique to you with each update of SmartAdmin.
+ */
+
+/*
+ * INDEX
+ *
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+ body{overflow:auto !important;}
+ .nodis{display:none !important;}
+ .online{background: #54ce3c none repeat scroll 0 0;}
+ .navlink{cursor: pointer;}
+ .full-display{width:100% !important;}
+ .no-margin-left{margin-left:0px !important;}
+ .float-left{float:left !important;}
+ .clear{clear:both;}
+ .blog-banner{height: auto;max-width: 400px !important;width: auto;}
+ .blog-post-btn{float:right;margin-bottom:10px;margin-left:4px;}
+ .online-user{clear:both;background: #54ce3c none repeat scroll 0 0;border-radius: 60% !important;display: inline-block;margin-right: 7px;padding: 5px;width:2px !important;}
+ .text-content{line-height: 1em;}
+.short-text {overflow: hidden;height: 2em;}
+.full-text{height: auto;}
+.hide-morelink{text-decoration:none;outline:none}
+.hide-morecontent .hide-txt{display:none}
+.demo{display:none;}
+.online-img{height: auto !important;max-height: 30px !important;max-width: 30px !important;width:auto !important;}
+.profile-pic img{max-width:100px !important;max-height:100px !important;width:auto !important;height:auto !important;}
+.black-color{color:black !important;}
+.putcursor{cursor:pointer;}
+.menu-item-parent{max-width:none !important;}
+.menu-on-top .menu-item-parent,.menu-on-top .menu-item-parent:hover,.menu-on-top .menu-item-parent:not( :hover ) {
+	max-width: 84px !important;
+    white-space: unset !important;
+    word-break: initial !important;
+	line-height: 114% !important;
+	overflow: visible !important;
+	vertical-align: middle !important;
+	width: 100% !important;
+	text-align:center !important;
+	margin-top: 2px !important;
+}
+.menu-on-top nav>ul>li>a:after{display:none !important;top:84% !important;}
+.menu-on-top aside#left-panel nav>ul>li>a,.menu-on-top aside#left-panel nav>ul>li>a:hover,.menu-on-top aside#left-panel nav>ul>li>a:not( :hover ) {padding: 6px 1px !important;line-height: 28px !important;width:91px !important;height:79% !important;}
+.page-footer{position:fixed;z-index:1000 !important;}
+.menu-on-top #main {
+    margin-top: 106px !important;
+}
+.ui-chatbox-titlebar .uname{line-height:18px; padding-top: 3px;}
+.ui-chatbox-titlebar .cname{line-height: 11px; font-size: 10px; margin-left: 27px;}
+.ui-chatbox-icon{margin-top:-22px;}
+.coname{font-size:10px; margin-left:17px;}
+.display-users {
+    overflow-y: auto;
+    max-height: 80vh;
+    line-height: 1em;
+    overflow-x: hidden;
+}
+.display-users a {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.dropzone {
+    border: 2px dashed #dedede !important;
+    border-radius: 5px !important;
+    background: #f5f5f5 !important;
+    /*display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap !important;*/
+    flex-wrap: wrap !important;
+    padding: 0.5rem !important;
+}
+.dropzone .fa-cloud-upload{font-size: 3rem !important;}
+.dropzone .text-uppercase{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: inherit !important;
+    margin: 2em 0 !important;
+}
+.dropzone .dz-message {
+    margin: 2em 0 !important;
+}
+.dropzone .needsclick {
+    margin: 2em 0 !important;
+}

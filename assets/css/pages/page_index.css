@@ -1,0 +1,26 @@
+.carousel .fade{opacity:1 !important;}
+.fade{opacity:1 !important;transition:opacity 0.7s linear 0s !important;}
+.carousel-indicators{bottom:10px;left:50%;list-style:outside none none;margin-left:-30%;padding-left:0;position:absolute;text-align:center;width:60%;z-index:15;}
+.carousel-inner{overflow:hidden;position:relative;width:100%;}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{display:block;height:auto;max-width:100%;margin:0 auto;}
+.carousel-control{width:0px !important;}
+.carousel-indicators li{background-color:#000;border:2px solid #000;border-radius:10px !important;cursor:pointer;display:inline-block;height:10px;margin:1px;text-indent:-999px;width:10px;-moz-border-radius:15px !important;}
+.carousel-indicators .active{background-color:#fff;height:12px;margin:0;width:12px;}
+.carousel-caption{bottom:276px;color:#fff;left:9%;padding-bottom:20px;padding-top:20px;position:absolute;#right:15%;text-align:left;text-shadow:0 1px 2px rgba(0, 0, 0, 0.6);z-index:10;}
+.carousel-caption .btn{text-shadow:none;}
+.carousel-caption p{color:#fff;font-size:18px;font-weight:400;line-height:25px;margin-left:-2%;overflow:hidden;top:300px;width:100%;}
+.carousel-caption p i{font-style:normal;padding:0 10px;}
+.thumbnails h2 i{color:#fff;font-size:36px;font-style:normal;padding:0;margin-left:-2px;}
+.b-text{margin-left:auto;margin-right:auto;display:block;padding:0;top:-300px;left:125px;position:relative;width:1130px;height:0px;}
+.b-text p{font-size:24px;color:#fff;font-family:"Helvetica Neue";font-weight:300}
+.caption p{text-align:justify;}
+.thumbnail-kenburn .btn-more{right:23px !important;}
+.carousel.fade{opacity:1;}
+.carousel.fade .item{-moz-transition:opacity ease-in-out .7s;-o-transition:opacity ease-in-out .7s;-webkit-transition:opacity ease-in-out .7s;transition:opacity ease-in-out .7s;left:0 !important;opacity:0;top:0;position:absolute;width:100%;display:block !important;z-index:1;}
+.carousel.fade .item:first-child{top:auto;position:relative;}
+.carousel.fade .item.active{opacity:1;-moz-transition:opacity ease-in-out .7s;-o-transition:opacity ease-in-out .7s;-webkit-transition:opacity ease-in-out .7s;transition:opacity ease-in-out .7s;z-index:2;}
+.carousel-control{z-index:2;}
+.videowrapper{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;}
+.videowrapper iframe,
+.videowrapper object,
+.videowrapper embed{position:absolute;top:0;left:0;width:100%;height:100%;}

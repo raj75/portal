@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b67285087c5041461713551d0f77ef10",
+    "packages": [
+        {
+            "name": "clivern/imap",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Clivern/Imap.git",
+                "reference": "5cdb441bf01849c6ee4506913199e59f877f0103"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Clivern/Imap/zipball/5cdb441bf01849c6ee4506913199e59f877f0103",
+                "reference": "5cdb441bf01849c6ee4506913199e59f877f0103",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.7"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Clivern\\Imap\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clivern",
+                    "email": "hello@clivern.com",
+                    "homepage": "http://clivern.com"
+                }
+            ],
+            "description": "Access Mailbox Using PHP IMAP",
+            "homepage": "https://github.com/clivern/imap",
+            "keywords": [
+                "clivern",
+                "imap"
+            ],
+            "time": "2018-11-12T13:40:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

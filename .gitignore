@@ -1,0 +1,11 @@
+# Networking files
+#
+.DS_Store
+desktop.ini
+thumbs.db
+
+# Possible malicious
+*.exe
+*.bat
+
+.env

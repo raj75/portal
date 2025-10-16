@@ -1,0 +1,5 @@
+{
+    "require": {
+        "clivern/imap": "^1.0"
+    }
+}

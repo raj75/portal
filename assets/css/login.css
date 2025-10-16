@@ -1,0 +1,94 @@
+.progress-ring {
+  position: relative;
+  padding-top: 4px;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  display:none;
+}
+.progress-ring .progress-ring__wrap {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+}
+.progress-ring .progress-ring__wrap .progress-ring__circle {
+  transform: rotate(225deg);
+  animation-iteration-count: infinite;
+  animation-name: orbit;
+  animation-duration: 4000ms;
+  width: 19px;
+  height: 19px;
+  opacity: 0;
+}
+.progress-ring .progress-ring__wrap .progress-ring__circle:after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5% #777;
+  background: #777;
+}
+.progress-ring .progress-ring__wrap:nth-child(2) {
+  transform: rotate(-14deg);
+}
+.progress-ring .progress-ring__wrap:nth-child(2) .progress-ring__circle {
+  animation-delay: 133.33333333ms;
+}
+.progress-ring .progress-ring__wrap:nth-child(3) {
+  transform: rotate(-28deg);
+}
+.progress-ring .progress-ring__wrap:nth-child(3) .progress-ring__circle {
+  animation-delay: 266.66666667ms;
+}
+.progress-ring .progress-ring__wrap:nth-child(4) {
+  transform: rotate(-42deg);
+}
+.progress-ring .progress-ring__wrap:nth-child(4) .progress-ring__circle {
+  animation-delay: 400ms;
+}
+.progress-ring .progress-ring__wrap:nth-child(5) {
+  transform: rotate(-56deg);
+}
+.progress-ring .progress-ring__wrap:nth-child(5) .progress-ring__circle {
+  animation-delay: 533.33333333ms;
+}
+@keyframes orbit {
+  0% {
+    transform: rotate(225deg);
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  7% {
+    transform: rotate(345deg);
+    animation-timing-function: linear;
+  }
+  35% {
+    transform: rotate(495deg);
+    animation-timing-function: ease-in-out;
+  }
+  42% {
+    transform: rotate(690deg);
+    animation-timing-function: linear;
+  }
+  70% {
+    transform: rotate(835deg);
+    opacity: 1;
+    animation-timing-function: linear;
+  }
+  76% {
+    opacity: 1;
+  }
+  77% {
+    transform: rotate(955deg);
+    animation-timing-function: ease-in;
+  }
+  78% {
+    transform: rotate(955deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(955deg);
+    opacity: 0;
+  }
+}
