@@ -119,15 +119,6 @@ $tmp_aid=array_unique($tmp_aid);//print_r($tmp_aid);
 
 
 if($latitude == "" or $longitude == "" or empty($latitude) or empty($longitude)){
-	/*if(count($addr)) $gaddress=implode(",",$addr);
-	else $gaddress="USA";
-
-	$geocode = file_get_contents('https://maps.google.com/maps/api/geocode/json?address='.$gaddress.'&sensor=false&key=AIzaSyBOGPONyU_zrBA7ntwa-eaF_XavvCcuwnw');
-
-	$output= json_decode($geocode);
-//print_r($output);
-	$latitude = $output->results[0]->geometry->location->lat;
-	$longitude = $output->results[0]->geometry->location->lng;*/
 
 	$latitude = 71.5388001;
 	$longitude = -66.885417;
@@ -198,7 +189,7 @@ if(count($loc_arr) == 2)
 		google.maps.event.addListener(marker, "click", function (e) {
 			ib.open(theMap, this);
 		});
-//https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMapy
+
 		var ib = new InfoBox(myOptions);
 
 		ib.open(theMap, marker);*/
